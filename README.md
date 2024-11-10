@@ -1,12 +1,13 @@
-Word Frequency Analyzer
+**Word Frequency Analyzer**
 This project is a Word Frequency Analyzer built with a React frontend and an Express backend. It fetches webpage content from a given URL, processes the visible text to calculate word frequency, and displays the top 'N' most frequent words in a table.
 
-Features
-Accepts a URL and the number of top frequent words (N) as inputs.
-Retrieves visible content from the provided webpage URL.
-Calculates the frequency of each word and displays the top 'N' most frequent words.
-User-friendly interface with responsive design.
-Technologies Used
+**Features**
+-> Accepts a URL and the number of top frequent words (N) as inputs.
+-> Retrieves visible content from the provided webpage URL.
+-> Calculates the frequency of each word and displays the top 'N' most frequent words.
+-> User-friendly interface with responsive design.
+
+**Technologies Used**
 Frontend: React, Axios, CSS
 Backend: Express.js, Puppeteer, CORS
 Package Manager: npm
