@@ -20,9 +20,9 @@ This is a **web application** that allows users to analyze word frequencies from
   - JSON for data exchange
 
 ## Installation and Setup
-
-### 1. Clone the repository:
 ```bash
+### 1. Clone the repository:
+ 
 git clone https://github.com/yourusername/word-freq-analyser.git
 
 ### 2. Install Dependencies:
