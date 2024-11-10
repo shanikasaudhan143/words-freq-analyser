@@ -24,3 +24,29 @@ This is a **web application** that allows users to analyze word frequencies from
 ### 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/word-freq-analyser.git
+
+### 2. Install Dependencies:
+
+   cd backend
+   npm install
+
+   cd frontend
+   npm install
+
+### 3. Run the Application:
+   
+   cd backend
+   node index.js
+
+   cd frontend
+   npm start
+  
+
+### 1. Open in Browser:
+   - Open [http://localhost:3000](http://localhost:3000) to use the application.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```
+ 
