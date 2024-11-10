@@ -1,0 +1,112 @@
+/* frontend/src/index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  /* URL Input Styling */
+  input[type="text"],
+  input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 50%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  button:disabled {
+    background-color: #bbb;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px 20px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 1.1em;
+  }
+  
+  td {
+    font-size: 1em;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  @media (max-width: 768px) {
+    .App {
+      padding: 10px;
+    }
+    form {
+      flex-direction: column;
+      gap: 10px;
+    }
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+    }
+  }
+  
